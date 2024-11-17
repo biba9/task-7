@@ -1,0 +1,65 @@
+.sec-blog .NavBarTitle  {
+display: flex;
+margin: 20px 0;
+}
+.imgs-blog{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+        top: 30px;
+        z-index: -2;
+}
+.imgs-blog img{
+    width: 300px;
+}
+.cardblog{
+width: 270px;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    bottom: 20px;
+    background-color: white;
+    
+}
+.cardblog .date {
+    display: flex;
+    justify-content: space-between;
+}
+.cardblog .btn1{
+        border: 2px #80808054 solid;
+            background-color: white;
+            color: blue;
+            border-radius: 15px;
+            /* padding: 9px; */
+            width: 120px;
+}
+.cardblog .date p{
+    margin: 0;
+}
+.cb-pargraph{
+    font-weight: bold;
+        font-size: 20px;
+        border-bottom: 1px #80808080 solid;
+        margin: 20px 0;
+}
+.info-blog{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.detailes-blog{
+    display: flex;
+}
+.detailes-blog img{
+    margin-right: 10px;
+}
+.info-blog button{
+        padding: 7px 12px;
+            border: 2px #80808082 solid;
+}
+.cardsBlogs{
+    display: flex;
+    justify-content: space-evenly;
+}

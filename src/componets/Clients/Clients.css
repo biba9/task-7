@@ -1,0 +1,109 @@
+.sec-con-cl{
+    display: flex;
+        justify-content: center;
+}
+.conactClients{
+        border-radius: 22px;
+    width: 80%;
+        position: relative;
+            top: 30px;
+        
+background-color: #384bff;  
+          z-index: 2;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+}
+.contPargraf{
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+}
+.NavBarTitle {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;}
+.sec-con-cl .NavBarTitle h5 {
+    margin: 0 12px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 15px
+}
+.sec-con-cl .NavBarTitle svg{
+    color: white;
+
+}
+.contPargraf p{
+    font-weight: bold;
+        font-size: 20px;
+        width: 290px;
+}
+.conactClients button {
+  
+            width: 181px;
+            padding: 9px;
+            border-radius: 18px;
+            background-color: white;
+            border: 2px #808080a6 solid;
+            font-size: 16px;
+            font-weight: 600;
+}
+.sec-clientFeedback{
+    background-color: #f2f6fe;
+    padding: 20PX;
+}
+.sec-clientFeedback .NavBarTitle h5, .sec-clientFeedback .NavBarTitle svg{
+    color: #384bff;
+}
+.sec-clientFeedback .NavBarTitle{
+         display: flex;
+    justify-content: center;
+        margin-top: 5rem;
+
+}
+.sec-clientFeedback p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.cardsClient{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.cardClient{
+    width: 350px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.cardClient .blue{
+        background-color: #384bff;
+}
+.cardClient p{
+    text-align: left;
+    font-size: 16px;
+    color: gray;font-weight: 400;
+
+}
+.cardClient svg{
+    color: #fca21a;
+}
+.info-client{
+    display: flex;
+}
+.info-client h5,.info-client p{
+        margin-left: 13px;
+}
+.quot{
+text-align: right;
+    width: 50%;
+    font-size: 47px;
+}
+.quot svg{
+        color: gainsboro;
+
+}

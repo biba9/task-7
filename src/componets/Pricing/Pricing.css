@@ -1,0 +1,76 @@
+.navbar-pricing .NavBarTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.NavBarTitle h5 {
+    margin: 0 12px;
+    text-transform: uppercase;
+    color: #384bff;
+    ;
+}
+
+.NavBarTitle svg {
+    color: #384bff;
+    ;
+}
+.navbar-pricing h2{
+    width: 100%;
+            text-transform: capitalize;
+            font-weight: bold;
+            margin-top: 1rem;
+            text-align: center;
+}
+.cardsPricing{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cardpricing{
+    width: 340px;
+    border: 2px rgb(223, 215, 215) solid;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+.Nav-pricing{
+    display: flex;
+        justify-content: space-between;
+        align-items: center;
+    background-color: #384bff;
+    border-radius: 10px;
+margin:10px 5px ;
+        width: 307px;
+    padding:  15px ;
+    color: white;
+}
+
+.windy svg{
+    font-size: 60px;
+    color: #72b0ff;
+    
+}
+.checkQ{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.check .false {
+color: red;
+}
+.cardpricing button{
+    width: 295px;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: white;
+        border: 2px #808080a6 solid;
+        font-size: 18px;
+       color: #384bff;
+       font-weight: 600;
+    
+}

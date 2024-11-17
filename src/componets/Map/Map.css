@@ -1,0 +1,8 @@
+.MAP{
+    width: 100%;
+}
+.MAP iframe{
+    width: 100%;
+    height: 400PX;
+    margin: 20PX  0 0 0;
+}

@@ -1,0 +1,14 @@
+.NavBarTitle{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 4rem;
+}
+.NavBarTitle h5{
+    margin: 0 12px;
+        text-transform: uppercase;
+        color: #384bff;;
+}
+.NavBarTitle svg{
+    color: #384bff;;
+}

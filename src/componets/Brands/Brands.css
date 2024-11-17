@@ -1,0 +1,30 @@
+.title-brands{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.title-brands h4{
+    margin: 20px;
+}
+.line{
+    width: 200px;
+    height: 2px;
+    background-color: gray;
+}
+.brands{
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 1PX 0 50PX 0;
+}
+.brands img{
+width: 200px;
+margin: 10px; 
+}
+.brands .img-gray{
+    filter: grayscale(1);
+}

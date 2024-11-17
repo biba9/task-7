@@ -1,0 +1,38 @@
+
+.cards2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    border-radius: 15px;
+}
+.card2{
+    border-radius: 12px;
+background-color: #18185e;
+
+}
+.card2 img{
+    border-radius: 4% 4% 0 0;
+}
+.card2 .info2{
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    height: 100px;
+}
+.info2 .icone2{
+    width: 26px;
+    height: 26px;
+    padding: 5px 0;
+    background-color: #384bff;
+    border-radius: 50%;
+    align-self: flex-start;
+    position: absolute;
+    right: 10px;
+    top: -15px;
+}

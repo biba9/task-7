@@ -1,0 +1,173 @@
+.footer{
+    background-color: #18185e;
+    padding: 40px;
+}
+.info3{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    background-color: #384bff;
+border-radius: 10px;
+padding: 20px;
+flex-wrap: wrap;
+margin: 0 7px;
+}
+.line3{
+    height: 50px;
+    width: 2px;
+    background-color: gray;
+    margin-left: 60px;
+}
+.icone3{
+        width: 40px;
+            height: 40px;
+            padding: 5px 0;
+            background-color: white;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin:0 10px;
+}
+.icone3 svg{
+    font-size: 20px;
+    color:#384bff ;
+}
+.info-conaction h6 ,.info-conaction p{
+    color: white;
+}
+.info-conaction p{
+    font-weight: bold;
+}
+.detailes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+
+}
+.detailes img{
+    margin-bottom: 5px;
+}
+
+.detailes .links a{
+        color: white;
+            text-decoration: none;
+    margin: 3px 0;
+        }
+.container{
+    display: flex;
+    width: 248px;
+    margin-bottom: 10px;
+}
+.container img{
+    margin-right: 10px;
+    height: 52px;
+}
+.container h5{
+    font-weight: 300;
+    margin:0 7px 5px 5px ;
+        font-size: 12px;}
+.container p{
+    font-size: 14px;
+        font-size: 15px;
+            font-weight: bold;
+        
+}
+.container .date {
+    display: flex;
+}
+.about3{
+    width: 220px;
+    margin:0 30px;
+}
+.about3 .icones4 svg{
+        border: 2px wheat solid;
+            padding: 6px;
+margin: 2px;
+    width: 30px;
+        height: 30px;
+        color: white
+        }
+.links{
+    display: flex;
+    flex-direction: column;
+
+}
+/* .container-call{
+    
+} */
+ .container-call h3 ,.links h3,.post h3{
+    margin-bottom: 33px;
+ }
+ .container-call  ,.links  ,.post ,.detailes{
+color: white;
+ }
+.container-call .call-info{
+    display: flex;
+        flex-direction: column;
+}
+.container-call .call{
+    display: flex;
+    margin: 10px 0;
+}
+.container-call span{
+    text-decoration: underline;
+}
+.call-info .call svg{
+    margin-right: 5px;
+}
+.container-call form {
+    position: relative;}
+.container-call .email{
+        padding: 9px 19px;
+            border-radius: 8px;
+}
+    .container-call button {
+        position: absolute;
+    right: 1px;  
+background-color: #384bff;
+border-radius: 7px;
+    border: 0px;
+    width: 36px;
+        height: 30px;
+        padding: 5px 11px;
+        margin: 6px 3px 4px 3px;
+}
+
+.container-call button svg{
+    color: white;
+        font-size: 15px;
+}
+ .check{
+    display: flex;
+    margin-top: 7px;
+ } 
+ .check input{
+    background-color: #18185e;
+ }
+ .check p {
+    margin-left: 5px;
+    font-size: 14px;
+ }
+ .copyRights{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #384bff;
+padding: 40px;
+flex-wrap:wrap;
+gap: 10px;
+}
+ .copyRights  p{
+    color: white;
+    margin-left: 12px;
+ }
+ .terms{
+    display: flex;
+    margin-left: 20px;
+
+}
